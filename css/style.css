@@ -1,0 +1,24 @@
+.turismo-body {
+    background-attachment: fixed;
+    background-image: url(../img/machupicchu_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+p {
+    padding: 20px;
+	text-align: left;
+}
+.autor{
+    padding: 20px;
+    text-align: center;
+}
+.jq{
+    margin: 20px;
+}
+.boton_1 {
+	margin-bottom: 10px;
+    text-align: center;
+}

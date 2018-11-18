@@ -2,14 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <!--Importar la fuente de los íconos de Google-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Importar la hojas de estilos de materialize css-->
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/customColors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <title>Blog de turismo | Materialize</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link rel="shortcut icon" type="image/x-icon" href="#">
+	<title>Blog de Turismo</title>
 </head>
 <body class="turismo-body">
     <div class="contenedor">
@@ -32,9 +30,96 @@
                 <a class="pink accent-3 btn btn" href="#"><i class="material-icons left">chat_bubble</i><span class="hide-on-small-and-down">Recomendaciones</span></a>
 			</div>
         </header>
-    </div>
+        <div class="row">
+			<div class="col m2 hide-on-small-and-down"></div>
+			<div class="col s12 m10"><span class="white-text text-darken-2"><h5>El país más rico del mundo</h5></span></div>
+		</div>
+        <div class="row">
+            <div class="col m1 center-align hide-on-small-and-down">
+				<div><a class="waves-effect waves-light" href="#"><img src="img/facebook.png" alt="Facebook"></a></div>
+				<div><a class="waves-effect waves-light" href="#"><img src="img/instagram.png" alt="Instagram"></a></div>
+				<div><a class="waves-effect waves-light" href="#"><img src="img/twitter.png" alt="Twitter"></a></div>
+			</div>
+			<div class="col m1 hide-on-small-and-down"></div>
+			<div class="col s12 m11">
+				<div class="row">
+					<div class="col m4">
+						<img class="responsive-img" width="100%" src="img/cusco.jpg" alt="cusco">
+						<img class="responsive-img" width="100%" src="img/miraflores.jpg" alt="miraflores">
+					</div>
+					<div class="col m4">
+						<img class="responsive-img" width="100%" src="img/machupicchu_2.jpg" alt="Machu Picchu">
+					</div>
+					<div class="col m4">
+						<img class="responsive-img" width="100%" src="img/cordillera_blanca.jpg" alt="Cordillera blanca">
+						<img class="responsive-img" width="100%" src="img/templo.jpg" alt="templo">
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="row">
+            <div class="col m9">
+                <div class="row card">
+					<div class="col m12">
+						<h4>Perú, el país más rico del mundo</h4>
+						<div>
+							<a class="btn btn-small waves-effect waves-light pink accent-3" style="border-radius: 15px" href="#"><i class="material-icons right">event</i>17 noviembre 2018</a>
+							<a class="btn btn-small waves-effect waves-light pink accent-3" style="border-radius: 15px" href="#"><i class="material-icons right">location_on</i>Perú, Cuzco, Andes</a>
+						</div>
+						<br>
+						<img class="materialboxed responsive-img" width="100%" src="img/cordillera.jpg" alt="Cordillera">
+						<p>
+                            Desde irse de mochilero por los Andes hasta cruceros lujosos por el río Amazonas, Perú se ha colocado como uno de los destinos turísticos más atractivos en el mundo. Perú disfruta de una industria turística en desarrollo con más y más gente visitando el país de año en año. El ránking de los mejores países para hacer negocio realizado por U.S. News 2018 posiciona a los países asiáticos y europeos en la cima de la lista<br><br>
+                            Comenzar un negocio puede ser desalentador y los inversores y emprendedores toman todo tipo de consideraciones para elegir el país indicado para iniciar un negocio.<br><br>
+                            Es asequible, cuán burocrático es, tiene costos baratos de manufactura, cuán fácil es el acceso al capital; esos son algunas de los atributos que los inversores consideran antes de invertir en un nuevo negocio. Actualmente, el gobierno peruano pretende construir en este aumento lanzando una campaña para doblar el número de turistas que visitan el país en 2021. La campaña se centra en ilustrar la riqueza cultural, natural y culinaria de Perú, centrándose en a la idea de “Perú es el país más rico del mundo”.
+						</p>
+					</div>
+				</div>
+				<div class="row card pink accent-3 white-text">
+                    <form class="col s12">
+						<h5>Deja tu comentario</h5>
+						<div class="row">
+							<div class="input-field col s6">
+								<i class="material-icons prefix">person</i>
+								<input id="icon_person" type="text" class="validate">
+								<label for="icon_person">Nombre</label>
+							</div>
+							<div class="input-field col s6">
+								<i class="material-icons prefix">mail</i>
+								<input id="icon_mail" type="tel" class="validate">
+								<label for="icon_mail">Correo</label>
+							</div>
+						</div>
+						<div class="input-field col s12">
+							<i class="material-icons prefix">comment</i>
+							<textarea id="textarea1" class="materialize-textarea"></textarea>
+						  	<label for="textarea1"><label for="textarea1">Textarea</label></label>
+						</div>
+					</form>
+                    <div class="row center-align">
+        				<div class="col s12 m12">
+        					<button class="btn waves-effect waves-light yellow darken-2 boton_1" type="submit" name="action" >Enviar<i class="material-icons right">send</i></button>
+        				</div>
+        			</div>
+                </div>
+            </div>
+            <div class="col s10 m3 offset-s1">
+                <div class="row card">
+					<div class="col m12 center-align" style="padding-top: 5px">
+						<img class="circle jq" width="50%" src="img/JhonatanQ.png" alt="Jhonatan Quijano">
+						<h5>Perfil del Autor</h5>
+						<div class="divider"></div>
+						<p class="autor">
+							Nací en 1980, y me consideran uno de los principales expertos en Perú y Latinoamérica en Marketing Digital, Redes Sociales y Transformación Digital. Soy también profesor de las mejores escuelas de negocio y universidades, entre las que destacan la Rey Juan Carlos, Universidad de Barcelona, IE, Les Roches, ESADE y mentor y advisor en programas de emprendedores como StartupsMansion en Nueva York o 10 Entrepreneurs en Miami y San Francisco. También imparto formación a medida en importantes empresas como el Grupo Bassat Ogilvy, IBM, Microsoft, GREY, BBVA o GSK entre otras. Me he formado con profesionales de Silicon Valley entre los que destaco a Matt Belitsky, Tony Pham o Dan McGaw, y he estudiado “Disruptive Strategy” en Harvard Business School.
+						</p>
+					</div>
+				</div>
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+			</div>
+
+		</div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>
